@@ -86,14 +86,14 @@ const Navigation = () => {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block text-base font-medium text-foreground hover:text-accent smooth-transition text-white"
+                className="block text-base font-medium text-foreground hover:text-accent smooth-transition"
               >
                 {link.name}
               </a>
             ))}
             <div className="flex flex-col space-y-2 pt-4 border-t border-border ">
               <a href="tel:08412850833">
-                <Button variant="outline" size="sm" className="w-full smooth-transition text-white">
+                <Button variant="outline" size="sm" className="w-full smooth-transition">
                   <Phone className="w-4 h-4 mr-2 " />
                   Call Us
                 </Button>
